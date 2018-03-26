@@ -520,7 +520,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+![png](mdoutput/output_19_0.png)
 
 
 The number of system inspections was relatively stable until 2006, but the total number of inspections has been on an upward trend since 2006, with the highest number of inspections of firearms trades in 2016.
@@ -539,7 +539,7 @@ ax.set_xticklabels([ df_month_totals.loc[i,'year_month'] for i in tick_placement
 ```
 
 
-![png](output_21_0.png)
+![png](mdoutput/output_21_0.png)
 
 
 The total amount of transactions checked through the system has been increasing year by year. According to the monthly area charts, we find that the annual peak is actually December.
@@ -559,7 +559,7 @@ for p in ax.patches:
 ```
 
 
-![png](output_23_0.png)
+![png](mdoutput/output_23_0.png)
 
 
 Through the observation of the monthly data, it was found that the number of guns traded in May, June and July was mediocre, but the number of guns trades was relatively large from September to January. 
@@ -575,7 +575,7 @@ df_guns_type.plot.pie(autopct='%1.1f%%', title="Guns Type", label="",
 ```
 
 
-![png](output_26_0.png)
+![png](mdoutput/output_26_0.png)
 
 
 Through the statistics on all the data, it was found that the longs were more popular than the shorts.But the survey is a bit crude and we need to compare it at different times.
@@ -594,7 +594,7 @@ ax.set_xticklabels([ df_month_totals.loc[i,'year_month'] for i in tick_placement
 ```
 
 
-![png](output_28_0.png)
+![png](mdoutput/output_28_0.png)
 
 
 We found that the trend of guns and pistols are basically the same, but by the year 2015, the area of guns in the plot seems to outnumber the rifles. Let's make a detailed comparison.
@@ -611,7 +611,7 @@ ax.set_xticklabels([ df_month_totals.loc[i,'year_month'] for i in tick_placement
 ```
 
 
-![png](output_30_0.png)
+![png](mdoutput/output_30_0.png)
 
 
 It is clear that since 2014, the number of pistol transactions has overtaken the rifle and continues until now, which may be related to a government policy.
@@ -648,7 +648,7 @@ ax.set_xticklabels(bin_names);
 ```
 
 
-![png](output_36_0.png)
+![png](mdoutput/output_36_0.png)
 
 
 
@@ -661,7 +661,7 @@ for p in ax.patches:
 ```
 
 
-![png](output_37_0.png)
+![png](mdoutput/output_37_0.png)
 
 
 It can be found that the regular volume of transactions that were imposed during the Obama administration has seen an explosive growth. Although Trump has only been in office for one year now, the average number of traded guns is still lower than that of Obama.
@@ -693,7 +693,7 @@ for i, txt in zip(x,df_region['state']):
 ```
 
 
-![png](output_42_0.png)
+![png](mdoutput/output_42_0.png)
 
 
 Kentucky's total gun trade looks to be far ahead.But, Why? Is it because the state has a large population?
@@ -906,7 +906,7 @@ plt.title('relationship between population and guns total in 2016', fontsize=28)
 ```
 
 
-![png](output_46_0.png)
+![png](mdoutput/output_46_0.png)
 
 
 We can find that there is a positive correlation between total population and total firearms.
